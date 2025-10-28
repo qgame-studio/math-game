@@ -245,7 +245,7 @@ class GameComponent extends HTMLElement {
           
           <p>Solve the equation:</p>
           <div id="equation" class="equation"></div>
-          <input type="number" id="user-input" placeholder="Your answer" step="any" inputmode="decimal" pattern="[-+]?[0-9]*[.,]?[0-9]+" />
+          <input type="text" inputmode="numeric" id="user-input" placeholder="Your answer" />
           <div class="button-container">
             <button id="submit-btn">Submit</button>
             <button id="next-btn" style="display: none;">Next Question</button>
